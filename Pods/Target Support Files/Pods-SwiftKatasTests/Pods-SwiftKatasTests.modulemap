@@ -1,0 +1,6 @@
+framework module Pods_SwiftKatasTests {
+  umbrella header "Pods-SwiftKatasTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
