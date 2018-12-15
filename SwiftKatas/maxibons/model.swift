@@ -28,7 +28,7 @@ public struct KarumiFridge {
     public let maxibonsLeft: Int
 
     init(maxibonsLeft: Int = 10) {
-        self.maxibonsLeft = max(0, maxibonsLeft)
+        self.maxibonsLeft = min(12, max(3, maxibonsLeft))
     }
 }
 

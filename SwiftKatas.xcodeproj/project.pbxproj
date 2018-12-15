@@ -14,7 +14,6 @@
 		EB876CC921C505E3000934A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB876CC721C505E3000934A4 /* Main.storyboard */; };
 		EB876CCB21C505E5000934A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB876CCA21C505E5000934A4 /* Assets.xcassets */; };
 		EB876CCE21C505E5000934A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB876CCC21C505E5000934A4 /* LaunchScreen.storyboard */; };
-		EB876CD921C505E5000934A4 /* SwiftKatasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB876CD821C505E5000934A4 /* SwiftKatasTests.swift */; };
 		EB8F7B4921C50789001EF461 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EB8F7B4821C50789001EF461 /* README.md */; };
 		EB8F7B4C21C509CE001EF461 /* Fastfile in Resources */ = {isa = PBXBuildFile; fileRef = EB8F7B4B21C509CE001EF461 /* Fastfile */; };
 		EB8F7B4E21C50C1B001EF461 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = EB8F7B4D21C50C1B001EF461 /* Podfile */; };
@@ -22,6 +21,9 @@
 		EB8F7B5421C5406C001EF461 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8F7B5321C5406C001EF461 /* model.swift */; };
 		EB8F7B5621C5409A001EF461 /* KarumiHQs.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8F7B5521C5409A001EF461 /* KarumiHQs.swift */; };
 		EB8F7B5821C540A4001EF461 /* ChatModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8F7B5721C540A4001EF461 /* ChatModule.swift */; };
+		EB8F7B5F21C55121001EF461 /* MaxibonsSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8F7B5E21C55121001EF461 /* MaxibonsSpec.swift */; };
+		EB8F7B6121C55175001EF461 /* ArbitraryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8F7B6021C55175001EF461 /* ArbitraryModel.swift */; };
+		EB8F7B6321C5552A001EF461 /* MockChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8F7B6221C5552A001EF461 /* MockChat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +51,6 @@
 		EB876CCD21C505E5000934A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB876CCF21C505E5000934A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB876CD421C505E5000934A4 /* SwiftKatasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftKatasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB876CD821C505E5000934A4 /* SwiftKatasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftKatasTests.swift; sourceTree = "<group>"; };
 		EB876CDA21C505E5000934A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB8F7B4821C50789001EF461 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EB8F7B4B21C509CE001EF461 /* Fastfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Fastfile; sourceTree = "<group>"; };
@@ -58,6 +59,9 @@
 		EB8F7B5321C5406C001EF461 /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
 		EB8F7B5521C5409A001EF461 /* KarumiHQs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KarumiHQs.swift; sourceTree = "<group>"; };
 		EB8F7B5721C540A4001EF461 /* ChatModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModule.swift; sourceTree = "<group>"; };
+		EB8F7B5E21C55121001EF461 /* MaxibonsSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxibonsSpec.swift; sourceTree = "<group>"; };
+		EB8F7B6021C55175001EF461 /* ArbitraryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArbitraryModel.swift; sourceTree = "<group>"; };
+		EB8F7B6221C5552A001EF461 /* MockChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockChat.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,7 +144,7 @@
 		EB876CD721C505E5000934A4 /* SwiftKatasTests */ = {
 			isa = PBXGroup;
 			children = (
-				EB876CD821C505E5000934A4 /* SwiftKatasTests.swift */,
+				EB8F7B5C21C550F5001EF461 /* maxibons */,
 				EB876CDA21C505E5000934A4 /* Info.plist */,
 			);
 			path = SwiftKatasTests;
@@ -171,6 +175,16 @@
 				EB8F7B5721C540A4001EF461 /* ChatModule.swift */,
 			);
 			path = interpreter;
+			sourceTree = "<group>";
+		};
+		EB8F7B5C21C550F5001EF461 /* maxibons */ = {
+			isa = PBXGroup;
+			children = (
+				EB8F7B5E21C55121001EF461 /* MaxibonsSpec.swift */,
+				EB8F7B6021C55175001EF461 /* ArbitraryModel.swift */,
+				EB8F7B6221C5552A001EF461 /* MockChat.swift */,
+			);
+			path = maxibons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +244,7 @@
 					};
 					EB876CD321C505E5000934A4 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 						TestTargetID = EB876CBF21C505E3000934A4;
 					};
 				};
@@ -391,7 +406,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB876CD921C505E5000934A4 /* SwiftKatasTests.swift in Sources */,
+				EB8F7B6321C5552A001EF461 /* MockChat.swift in Sources */,
+				EB8F7B6121C55175001EF461 /* ArbitraryModel.swift in Sources */,
+				EB8F7B5F21C55121001EF461 /* MaxibonsSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,6 +600,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SwiftKatasTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -592,6 +610,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.pedrovgs.SwiftKatasTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftKatas.app/SwiftKatas";
@@ -604,6 +624,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SwiftKatasTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -613,6 +634,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.pedrovgs.SwiftKatasTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftKatas.app/SwiftKatas";

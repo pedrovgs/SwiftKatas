@@ -5,6 +5,7 @@ disabled_rules: # rule identifiers to exclude from running
   - function_body_length
   - type_name
   - opening_brace
+  - force_try
 excluded: # paths to ignore during linting. overridden by `included`.
   - Carthage
   - Pods
