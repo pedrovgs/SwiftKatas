@@ -18,7 +18,7 @@ default_platform(:ios)
 platform :ios do
   desc "Run tests"
   lane :test do
-      run_tests(scheme: "SwiftKatasTests")
+      run_tests(scheme: "SwiftKatas")
   end
 end
 
