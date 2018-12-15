@@ -15,6 +15,8 @@
 		EB876CCB21C505E5000934A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB876CCA21C505E5000934A4 /* Assets.xcassets */; };
 		EB876CCE21C505E5000934A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB876CCC21C505E5000934A4 /* LaunchScreen.storyboard */; };
 		EB876CD921C505E5000934A4 /* SwiftKatasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB876CD821C505E5000934A4 /* SwiftKatasTests.swift */; };
+		EB8F7B4921C50789001EF461 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EB8F7B4821C50789001EF461 /* README.md */; };
+		EB8F7B4C21C509CE001EF461 /* Fastfile in Resources */ = {isa = PBXBuildFile; fileRef = EB8F7B4B21C509CE001EF461 /* Fastfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		EB876CD421C505E5000934A4 /* SwiftKatasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftKatasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB876CD821C505E5000934A4 /* SwiftKatasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftKatasTests.swift; sourceTree = "<group>"; };
 		EB876CDA21C505E5000934A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB8F7B4821C50789001EF461 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EB8F7B4B21C509CE001EF461 /* Fastfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Fastfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,8 @@
 		EB876CB721C505E3000934A4 = {
 			isa = PBXGroup;
 			children = (
+				EB8F7B4A21C509BB001EF461 /* fastlane */,
+				EB8F7B4821C50789001EF461 /* README.md */,
 				EB876CC221C505E3000934A4 /* SwiftKatas */,
 				EB876CD721C505E5000934A4 /* SwiftKatasTests */,
 				EB876CC121C505E3000934A4 /* Products */,
@@ -126,6 +132,14 @@
 				EB876CDA21C505E5000934A4 /* Info.plist */,
 			);
 			path = SwiftKatasTests;
+			sourceTree = "<group>";
+		};
+		EB8F7B4A21C509BB001EF461 /* fastlane */ = {
+			isa = PBXGroup;
+			children = (
+				EB8F7B4B21C509CE001EF461 /* Fastfile */,
+			);
+			path = fastlane;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,8 +225,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB8F7B4C21C509CE001EF461 /* Fastfile in Resources */,
 				EB876CCE21C505E5000934A4 /* LaunchScreen.storyboard in Resources */,
 				EB876CCB21C505E5000934A4 /* Assets.xcassets in Resources */,
+				EB8F7B4921C50789001EF461 /* README.md in Resources */,
 				EB876CC921C505E3000934A4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
