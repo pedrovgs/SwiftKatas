@@ -33,7 +33,7 @@ class KarumiHQs<F> {
         let maxibonsLeft = computeMaxibonsLeft(world: world, dev: developer)
         return monad.binding(
             { refillMaxibonsIfNeeded(chat, monad, developer: developer, maxibonsLeft: maxibonsLeft) },
-            { finalMaxibonsAmount in monad.pure(World(karumiFridge: KarumiFridge(maxibonsLeft: finalMaxibonsAmount))) }
+            { finalMaxibonsAmount in monad.pure(World._maxibonsLeft.set(world, finalMaxibonsAmount)) }
         )
     }
 

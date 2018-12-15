@@ -11,6 +11,7 @@ import XCTest
 import SwiftCheck
 import Bow
 import BowEffects
+import Nimble
 @testable import SwiftKatas
 
 class MaxibonsSpec: XCTestCase {
@@ -48,11 +49,11 @@ class MaxibonsSpec: XCTestCase {
     }
 
     func testUse2AsMinNumberOfMaxibons() {
-        XCTAssertEqual(KarumiHQs<ForIO>().minNumberOfMaxibons, 2)
+        expect(KarumiHQs<ForIO>().minNumberOfMaxibons).to(be(2))
     }
 
     func testUse10AsNumberOfMaxibonsToRefillWhenNeeded() {
-        XCTAssertEqual(KarumiHQs<ForIO>().minNumberOfMaxibons, 2)
+        expect(KarumiHQs<ForIO>().maxibonsToRefill).to(be(10))
     }
 
     private func openFridge(_ world: World, _ developer: Developer) -> World {

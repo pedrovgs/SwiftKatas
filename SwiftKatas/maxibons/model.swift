@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import BowOptics
 
 public struct Developer {
 
@@ -20,10 +21,30 @@ public struct Developer {
 
 }
 
+extension World {
+    static let _maxibonsLeft: Lens<World, Int> = World._karumiFridge.compose(KarumiFridge._maxibonsLeft)
+
+    static var _karumiFridge: Lens<World, KarumiFridge> {
+        return Lens(get: {
+            return $0.karumiFridge
+        }, set: { (_, newFridge) in
+            return World(karumiFridge: newFridge)
+        })
+    }
+}
 public struct World {
     public let karumiFridge: KarumiFridge
 }
 
+extension KarumiFridge {
+    static var _maxibonsLeft: Lens<KarumiFridge, Int> {
+        return Lens(get: {
+            return $0.maxibonsLeft
+        }, set: { (_, newValue) in
+            return KarumiFridge(maxibonsLeft: newValue)
+        })
+    }
+}
 public struct KarumiFridge {
     public let maxibonsLeft: Int
 
