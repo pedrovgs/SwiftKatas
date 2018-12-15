@@ -13,7 +13,8 @@ target 'SwiftKatas' do
 
   target 'SwiftKatasTests' do
     inherit! :search_paths
-    # Pods for testing
+    pod 'SwiftCheck'
+    pod 'Nimble'
   end
 
 end

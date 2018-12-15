@@ -1,16 +1,38 @@
 PODS:
+  - Bow (0.2.0)
+  - BowEffects (0.2.0):
+    - Bow (~> 0.2.0)
+  - BowOptics (0.2.0):
+    - Bow (~> 0.2.0)
+  - Nimble (7.3.1)
+  - SwiftCheck (0.10.0)
   - SwiftLint (0.27.0)
 
 DEPENDENCIES:
+  - Bow
+  - BowEffects
+  - BowOptics
+  - Nimble
+  - SwiftCheck
   - SwiftLint
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - Bow
+    - BowEffects
+    - BowOptics
+    - Nimble
+    - SwiftCheck
     - SwiftLint
 
 SPEC CHECKSUMS:
+  Bow: 98457e65bfe48ee59d64241098eddd445a91d0ef
+  BowEffects: 15e8a824971c310e605b69aab5f781d8fd06093a
+  BowOptics: 9af35bd8025a55b34e49c3a44c6a9579a9ebe1f2
+  Nimble: 04f732da099ea4d153122aec8c2a88fd0c7219ae
+  SwiftCheck: 8a3c3638941467bc142d625f374a8409dd262ae8
   SwiftLint: 3207c1faa2240bf8973b191820a116113cd11073
 
-PODFILE CHECKSUM: 9d97ba58ba1f114378191b48fc07b2bb006ede7b
+PODFILE CHECKSUM: 4e9f53840ec224cc6d9ead0d09187f45f226583b
 
 COCOAPODS: 1.5.0
