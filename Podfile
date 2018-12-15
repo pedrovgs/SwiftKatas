@@ -7,6 +7,9 @@ target 'SwiftKatas' do
 
   # Pods for SwiftKatas
   pod 'SwiftLint'
+  pod 'Bow'
+  pod 'BowOptics'
+  pod 'BowEffects'
 
   target 'SwiftKatasTests' do
     inherit! :search_paths
