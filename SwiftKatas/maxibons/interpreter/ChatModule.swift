@@ -7,3 +7,17 @@
 //
 
 import Foundation
+import Bow
+import BowEffects
+
+class ChatModule: Chat {
+    typealias F = ForIO
+
+    func sendMessage(message: String) -> Kind<ForIO, String> {
+        return IO.invoke{
+            print(message)
+            return message
+        }
+    }
+
+}
