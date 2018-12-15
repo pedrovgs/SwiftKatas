@@ -1,9 +1,6 @@
 language: objective-c
 osx_image: xcode10.1
-
-before_install:
-  - bundle exec pod repo update --silent
-
 script:
+  - bundle eec pod repo update --silent
   - Pods/SwiftLint/swiftlint
   - bundle exec fastlane test
