@@ -1,8 +1,12 @@
-# <img alt="Kotlin" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Swift_logo.svg/2000px-Swift_logo.svg.png" height="60"/> <img alt="Bow" src="https://avatars2.githubusercontent.com/u/44965417?s=200&v=4" height="50"/> SwiftKatas [![Build Status](https://travis-ci.com/pedrovgs/SwiftKatas.svg?branch=master)](https://travis-ci.com/pedrovgs/SwiftKatas)
+# <img alt="Swift" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Swift_logo.svg/2000px-Swift_logo.svg.png" height="60"/> <img alt="Bow" src="https://avatars2.githubusercontent.com/u/44965417?s=200&v=4" height="50"/> SwiftKatas [![Build Status](https://travis-ci.com/pedrovgs/SwiftKatas.svg?branch=master)](https://travis-ci.com/pedrovgs/SwiftKatas)
 
-Swift training repository used to learn Kotlin and Functional Programming by solving some common katas using just purely functional programming with [Bow](https://github.com/bow-swift/bow). This project uses CocoaPods, remember to execute ``pod install`` before start using this repository for any development purpose.
+Swift training repository used to learn Swift and Functional Programming by solving some common katas using just purely functional programming with [Bow](https://github.com/bow-swift/bow). This project uses CocoaPods, remember to execute ``pod install`` before start using this repository for any development purpose.
 
 ### List of katas:
+
+| # | Kata Statement |
+|---|----------------|
+| 1 | [Maxibons](https://github.com/Karumi/MaxibonKataJava#-kata-maxibon-for-java-) | [https://github.com/Karumi/SwiftKatas/pull/1](https://github.com/Karumi/SwiftKatas/pull/1) |
 
 ### Executing tests:
 

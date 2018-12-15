@@ -14,10 +14,17 @@
 		EB876CC921C505E3000934A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB876CC721C505E3000934A4 /* Main.storyboard */; };
 		EB876CCB21C505E5000934A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB876CCA21C505E5000934A4 /* Assets.xcassets */; };
 		EB876CCE21C505E5000934A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB876CCC21C505E5000934A4 /* LaunchScreen.storyboard */; };
-		EB876CD921C505E5000934A4 /* SwiftKatasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB876CD821C505E5000934A4 /* SwiftKatasTests.swift */; };
 		EB8F7B4921C50789001EF461 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EB8F7B4821C50789001EF461 /* README.md */; };
 		EB8F7B4C21C509CE001EF461 /* Fastfile in Resources */ = {isa = PBXBuildFile; fileRef = EB8F7B4B21C509CE001EF461 /* Fastfile */; };
 		EB8F7B4E21C50C1B001EF461 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = EB8F7B4D21C50C1B001EF461 /* Podfile */; };
+		EB8F7B5121C5405A001EF461 /* algebra.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8F7B5021C5405A001EF461 /* algebra.swift */; };
+		EB8F7B5421C5406C001EF461 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8F7B5321C5406C001EF461 /* model.swift */; };
+		EB8F7B5621C5409A001EF461 /* KarumiHQs.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8F7B5521C5409A001EF461 /* KarumiHQs.swift */; };
+		EB8F7B5821C540A4001EF461 /* ChatModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8F7B5721C540A4001EF461 /* ChatModule.swift */; };
+		EB8F7B5F21C55121001EF461 /* MaxibonsSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8F7B5E21C55121001EF461 /* MaxibonsSpec.swift */; };
+		EB8F7B6121C55175001EF461 /* ArbitraryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8F7B6021C55175001EF461 /* ArbitraryModel.swift */; };
+		EB8F7B6321C5552A001EF461 /* MockChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8F7B6221C5552A001EF461 /* MockChat.swift */; };
+		EB8F7B6521C5595B001EF461 /* ModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8F7B6421C5595B001EF461 /* ModelSpec.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,11 +52,18 @@
 		EB876CCD21C505E5000934A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB876CCF21C505E5000934A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB876CD421C505E5000934A4 /* SwiftKatasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftKatasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB876CD821C505E5000934A4 /* SwiftKatasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftKatasTests.swift; sourceTree = "<group>"; };
 		EB876CDA21C505E5000934A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB8F7B4821C50789001EF461 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EB8F7B4B21C509CE001EF461 /* Fastfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Fastfile; sourceTree = "<group>"; };
 		EB8F7B4D21C50C1B001EF461 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		EB8F7B5021C5405A001EF461 /* algebra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = algebra.swift; sourceTree = "<group>"; };
+		EB8F7B5321C5406C001EF461 /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
+		EB8F7B5521C5409A001EF461 /* KarumiHQs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KarumiHQs.swift; sourceTree = "<group>"; };
+		EB8F7B5721C540A4001EF461 /* ChatModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModule.swift; sourceTree = "<group>"; };
+		EB8F7B5E21C55121001EF461 /* MaxibonsSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxibonsSpec.swift; sourceTree = "<group>"; };
+		EB8F7B6021C55175001EF461 /* ArbitraryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArbitraryModel.swift; sourceTree = "<group>"; };
+		EB8F7B6221C5552A001EF461 /* MockChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockChat.swift; sourceTree = "<group>"; };
+		EB8F7B6421C5595B001EF461 /* ModelSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelSpec.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +132,7 @@
 		EB876CC221C505E3000934A4 /* SwiftKatas */ = {
 			isa = PBXGroup;
 			children = (
+				EB8F7B4F21C54044001EF461 /* maxibons */,
 				EB876CC321C505E3000934A4 /* AppDelegate.swift */,
 				EB876CC521C505E3000934A4 /* ViewController.swift */,
 				EB876CC721C505E3000934A4 /* Main.storyboard */,
@@ -131,7 +146,7 @@
 		EB876CD721C505E5000934A4 /* SwiftKatasTests */ = {
 			isa = PBXGroup;
 			children = (
-				EB876CD821C505E5000934A4 /* SwiftKatasTests.swift */,
+				EB8F7B5C21C550F5001EF461 /* maxibons */,
 				EB876CDA21C505E5000934A4 /* Info.plist */,
 			);
 			path = SwiftKatasTests;
@@ -145,6 +160,36 @@
 			path = fastlane;
 			sourceTree = "<group>";
 		};
+		EB8F7B4F21C54044001EF461 /* maxibons */ = {
+			isa = PBXGroup;
+			children = (
+				EB8F7B5221C54063001EF461 /* interpreter */,
+				EB8F7B5021C5405A001EF461 /* algebra.swift */,
+				EB8F7B5321C5406C001EF461 /* model.swift */,
+				EB8F7B5521C5409A001EF461 /* KarumiHQs.swift */,
+			);
+			path = maxibons;
+			sourceTree = "<group>";
+		};
+		EB8F7B5221C54063001EF461 /* interpreter */ = {
+			isa = PBXGroup;
+			children = (
+				EB8F7B5721C540A4001EF461 /* ChatModule.swift */,
+			);
+			path = interpreter;
+			sourceTree = "<group>";
+		};
+		EB8F7B5C21C550F5001EF461 /* maxibons */ = {
+			isa = PBXGroup;
+			children = (
+				EB8F7B5E21C55121001EF461 /* MaxibonsSpec.swift */,
+				EB8F7B6021C55175001EF461 /* ArbitraryModel.swift */,
+				EB8F7B6221C5552A001EF461 /* MockChat.swift */,
+				EB8F7B6421C5595B001EF461 /* ModelSpec.swift */,
+			);
+			path = maxibons;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -156,6 +201,7 @@
 				EB876CBC21C505E3000934A4 /* Sources */,
 				EB876CBD21C505E3000934A4 /* Frameworks */,
 				EB876CBE21C505E3000934A4 /* Resources */,
+				FF1250AFE789C6DCAD194DBC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -174,6 +220,7 @@
 				EB876CD021C505E5000934A4 /* Sources */,
 				EB876CD121C505E5000934A4 /* Frameworks */,
 				EB876CD221C505E5000934A4 /* Resources */,
+				78A53877965B2F23D93E49E8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -200,6 +247,7 @@
 					};
 					EB876CD321C505E5000934A4 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 						TestTargetID = EB876CBF21C505E3000934A4;
 					};
 				};
@@ -269,6 +317,30 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		78A53877965B2F23D93E49E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftKatasTests/Pods-SwiftKatasTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftCheck/SwiftCheck.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftCheck.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftKatasTests/Pods-SwiftKatasTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9B48AA7FB94E1FDC60D5E538 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -291,6 +363,32 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		FF1250AFE789C6DCAD194DBC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftKatas/Pods-SwiftKatas-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bow/Bow.framework",
+				"${BUILT_PRODUCTS_DIR}/BowEffects/BowEffects.framework",
+				"${BUILT_PRODUCTS_DIR}/BowOptics/BowOptics.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bow.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BowEffects.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BowOptics.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftKatas/Pods-SwiftKatas-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -299,7 +397,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB876CC621C505E3000934A4 /* ViewController.swift in Sources */,
+				EB8F7B5621C5409A001EF461 /* KarumiHQs.swift in Sources */,
+				EB8F7B5121C5405A001EF461 /* algebra.swift in Sources */,
 				EB876CC421C505E3000934A4 /* AppDelegate.swift in Sources */,
+				EB8F7B5421C5406C001EF461 /* model.swift in Sources */,
+				EB8F7B5821C540A4001EF461 /* ChatModule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,7 +409,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB876CD921C505E5000934A4 /* SwiftKatasTests.swift in Sources */,
+				EB8F7B6321C5552A001EF461 /* MockChat.swift in Sources */,
+				EB8F7B6121C55175001EF461 /* ArbitraryModel.swift in Sources */,
+				EB8F7B6521C5595B001EF461 /* ModelSpec.swift in Sources */,
+				EB8F7B5F21C55121001EF461 /* MaxibonsSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,6 +604,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SwiftKatasTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -508,6 +614,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.pedrovgs.SwiftKatasTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftKatas.app/SwiftKatas";
@@ -520,6 +628,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SwiftKatasTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -529,6 +638,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.pedrovgs.SwiftKatasTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftKatas.app/SwiftKatas";
