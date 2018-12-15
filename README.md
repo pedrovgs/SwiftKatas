@@ -9,7 +9,7 @@ Swift training repository used to learn Kotlin and Functional Programming by sol
 This project contains some tests written using XCTest and [SwiftCheck](https://github.com/typelift/SwiftCheck). You can easily run the tests by executing any of the following commands:
 
 ```
-fastlane tests
+fastlane test
 ```
 
 ### Checkstyle:
