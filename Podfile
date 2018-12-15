@@ -6,6 +6,7 @@ target 'SwiftKatas' do
   use_frameworks!
 
   # Pods for SwiftKatas
+  pod 'SwiftLint'
 
   target 'SwiftKatasTests' do
     inherit! :search_paths
