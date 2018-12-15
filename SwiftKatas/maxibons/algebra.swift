@@ -7,3 +7,10 @@
 //
 
 import Foundation
+import Bow
+
+public protocol Chat {
+    associatedtype F
+
+    func sendMessage(message: String) -> Kind<F, String>
+}

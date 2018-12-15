@@ -4,6 +4,10 @@ Swift training repository used to learn Kotlin and Functional Programming by sol
 
 ### List of katas:
 
+| # | Kata Statement |
+|---|----------------|
+| 1 | [Maxibons](https://github.com/Karumi/MaxibonKataJava#-kata-maxibon-for-java-) | [https://github.com/Karumi/SwiftKatas/pull/1](https://github.com/Karumi/SwiftKatas/pull/1) |
+
 ### Executing tests:
 
 This project contains some tests written using XCTest and [SwiftCheck](https://github.com/typelift/SwiftCheck). You can easily run the tests by executing any of the following commands:
