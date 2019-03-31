@@ -34,19 +34,25 @@ enum FormError {
 
 class FormValidator {
     static func validateForm(_ referenceDate: Date, _ form: Form) -> FormValidationResult<Form> {
-        let applicative: ValidatedApplicative<NonEmptyListOf<FormError>, NonEmptyListSemigroup<FormError>> = Validated<NonEmptyListOf<FormError>, Form>.applicative(Nel<FormError>.semigroup())
-        return applicative.map(validateFirstName(form.firstName),
-                        validateLastName(form.lastName),
-                        validateBirthday(referenceDate, form.birthday),
-                        validateLastName(form.lastName),
-                        validateLastName(form.lastName),
-                        validateLastName(form.lastName)) { (firstName: String
-                            , lastName: String
-                            , birthday: Date
-                            , documentId: String
-                            , phone: String
-                            , email: String) -> Form in
-                            form
+        return Validated<NonEmptyListOf<FormError>, Form>
+            .applicative(Nel<FormError>.semigroup())
+            .map(validateFirstName(form.firstName),
+                               validateLastName(form.lastName),
+                               validateBirthday(referenceDate, form.birthday),
+                               validateLastName(form.lastName),
+                               validateLastName(form.lastName),
+                               validateLastName(form.lastName)) { (firstName
+                                , lastName
+                                , birthday
+                                , documentId
+                                , phone
+                                , email) -> Form in
+                                Form(firstName: firstName,
+                                     lastName: lastName,
+                                     birthday: birthday,
+                                     documentId: documentId,
+                                     phoneNumber: phone,
+                                     email: email)
         }
     }
 
