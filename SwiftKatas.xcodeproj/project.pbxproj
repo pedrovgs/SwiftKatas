@@ -26,6 +26,8 @@
 		EB8F7B6321C5552A001EF461 /* MockChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8F7B6221C5552A001EF461 /* MockChat.swift */; };
 		EB8F7B6521C5595B001EF461 /* ModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8F7B6421C5595B001EF461 /* ModelSpec.swift */; };
 		EB932B552250B3720008EEAB /* FormValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB932B542250B3720008EEAB /* FormValidator.swift */; };
+		EB932B582250CA4D0008EEAB /* FormValidationSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB932B572250CA4D0008EEAB /* FormValidationSpec.swift */; };
+		EB932B5A2250D6280008EEAB /* ArbitraryForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB932B592250D6280008EEAB /* ArbitraryForm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,8 @@
 		EB8F7B6221C5552A001EF461 /* MockChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockChat.swift; sourceTree = "<group>"; };
 		EB8F7B6421C5595B001EF461 /* ModelSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelSpec.swift; sourceTree = "<group>"; };
 		EB932B542250B3720008EEAB /* FormValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormValidator.swift; sourceTree = "<group>"; };
+		EB932B572250CA4D0008EEAB /* FormValidationSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormValidationSpec.swift; sourceTree = "<group>"; };
+		EB932B592250D6280008EEAB /* ArbitraryForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArbitraryForm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +153,7 @@
 		EB876CD721C505E5000934A4 /* SwiftKatasTests */ = {
 			isa = PBXGroup;
 			children = (
+				EB932B562250CA3B0008EEAB /* formvalidation */,
 				EB8F7B5C21C550F5001EF461 /* maxibons */,
 				EB876CDA21C505E5000934A4 /* Info.plist */,
 			);
@@ -197,6 +202,15 @@
 			isa = PBXGroup;
 			children = (
 				EB932B542250B3720008EEAB /* FormValidator.swift */,
+			);
+			path = formvalidation;
+			sourceTree = "<group>";
+		};
+		EB932B562250CA3B0008EEAB /* formvalidation */ = {
+			isa = PBXGroup;
+			children = (
+				EB932B572250CA4D0008EEAB /* FormValidationSpec.swift */,
+				EB932B592250D6280008EEAB /* ArbitraryForm.swift */,
 			);
 			path = formvalidation;
 			sourceTree = "<group>";
@@ -423,6 +437,8 @@
 			files = (
 				EB8F7B6321C5552A001EF461 /* MockChat.swift in Sources */,
 				EB8F7B6121C55175001EF461 /* ArbitraryModel.swift in Sources */,
+				EB932B5A2250D6280008EEAB /* ArbitraryForm.swift in Sources */,
+				EB932B582250CA4D0008EEAB /* FormValidationSpec.swift in Sources */,
 				EB8F7B6521C5595B001EF461 /* ModelSpec.swift in Sources */,
 				EB8F7B5F21C55121001EF461 /* MaxibonsSpec.swift in Sources */,
 			);
