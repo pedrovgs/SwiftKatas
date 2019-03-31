@@ -5,9 +5,9 @@ Swift training repository used to learn Swift and Functional Programming by solv
 ### List of katas:
 
 | # | Kata Statement | Topic |
-|---|-------------------|--------|
+|---|----------------|--------|
 | 1 | [Maxibons](https://github.com/Karumi/MaxibonKataJava#-kata-maxibon-for-java-) | [https://github.com/Karumi/SwiftKatas/pull/1](https://github.com/Karumi/SwiftKatas/pull/1) | Polymorphic programming |
-| 2 | [Form validation](https://gist.github.com/pedrovgs/d83fe1f096928715a6f31946e557995a) | [https://github.com/Karumi/SwiftKatas/pull/3](https://github.com/Karumi/SwiftKatas/pull/2) | Validated data type| Validated |
+| 2 | [Form validation](https://gist.github.com/pedrovgs/d83fe1f096928715a6f31946e557995a) | [https://github.com/Karumi/SwiftKatas/pull/3](https://github.com/Karumi/SwiftKatas/pull/2) | Validated data type |
 
 ### Executing tests:
 
