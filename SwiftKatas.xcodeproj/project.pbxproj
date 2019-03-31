@@ -25,6 +25,9 @@
 		EB8F7B6121C55175001EF461 /* ArbitraryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8F7B6021C55175001EF461 /* ArbitraryModel.swift */; };
 		EB8F7B6321C5552A001EF461 /* MockChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8F7B6221C5552A001EF461 /* MockChat.swift */; };
 		EB8F7B6521C5595B001EF461 /* ModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8F7B6421C5595B001EF461 /* ModelSpec.swift */; };
+		EB932B552250B3720008EEAB /* FormValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB932B542250B3720008EEAB /* FormValidator.swift */; };
+		EB932B582250CA4D0008EEAB /* FormValidationSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB932B572250CA4D0008EEAB /* FormValidationSpec.swift */; };
+		EB932B5A2250D6280008EEAB /* ArbitraryForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB932B592250D6280008EEAB /* ArbitraryForm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +67,9 @@
 		EB8F7B6021C55175001EF461 /* ArbitraryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArbitraryModel.swift; sourceTree = "<group>"; };
 		EB8F7B6221C5552A001EF461 /* MockChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockChat.swift; sourceTree = "<group>"; };
 		EB8F7B6421C5595B001EF461 /* ModelSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelSpec.swift; sourceTree = "<group>"; };
+		EB932B542250B3720008EEAB /* FormValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormValidator.swift; sourceTree = "<group>"; };
+		EB932B572250CA4D0008EEAB /* FormValidationSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormValidationSpec.swift; sourceTree = "<group>"; };
+		EB932B592250D6280008EEAB /* ArbitraryForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArbitraryForm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +138,7 @@
 		EB876CC221C505E3000934A4 /* SwiftKatas */ = {
 			isa = PBXGroup;
 			children = (
+				EB932B532250B3650008EEAB /* formvalidation */,
 				EB8F7B4F21C54044001EF461 /* maxibons */,
 				EB876CC321C505E3000934A4 /* AppDelegate.swift */,
 				EB876CC521C505E3000934A4 /* ViewController.swift */,
@@ -146,6 +153,7 @@
 		EB876CD721C505E5000934A4 /* SwiftKatasTests */ = {
 			isa = PBXGroup;
 			children = (
+				EB932B562250CA3B0008EEAB /* formvalidation */,
 				EB8F7B5C21C550F5001EF461 /* maxibons */,
 				EB876CDA21C505E5000934A4 /* Info.plist */,
 			);
@@ -188,6 +196,23 @@
 				EB8F7B6421C5595B001EF461 /* ModelSpec.swift */,
 			);
 			path = maxibons;
+			sourceTree = "<group>";
+		};
+		EB932B532250B3650008EEAB /* formvalidation */ = {
+			isa = PBXGroup;
+			children = (
+				EB932B542250B3720008EEAB /* FormValidator.swift */,
+			);
+			path = formvalidation;
+			sourceTree = "<group>";
+		};
+		EB932B562250CA3B0008EEAB /* formvalidation */ = {
+			isa = PBXGroup;
+			children = (
+				EB932B572250CA4D0008EEAB /* FormValidationSpec.swift */,
+				EB932B592250D6280008EEAB /* ArbitraryForm.swift */,
+			);
+			path = formvalidation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -396,6 +421,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB932B552250B3720008EEAB /* FormValidator.swift in Sources */,
 				EB876CC621C505E3000934A4 /* ViewController.swift in Sources */,
 				EB8F7B5621C5409A001EF461 /* KarumiHQs.swift in Sources */,
 				EB8F7B5121C5405A001EF461 /* algebra.swift in Sources */,
@@ -411,6 +437,8 @@
 			files = (
 				EB8F7B6321C5552A001EF461 /* MockChat.swift in Sources */,
 				EB8F7B6121C55175001EF461 /* ArbitraryModel.swift in Sources */,
+				EB932B5A2250D6280008EEAB /* ArbitraryForm.swift in Sources */,
+				EB932B582250CA4D0008EEAB /* FormValidationSpec.swift in Sources */,
 				EB8F7B6521C5595B001EF461 /* ModelSpec.swift in Sources */,
 				EB8F7B5F21C55121001EF461 /* MaxibonsSpec.swift in Sources */,
 			);
